@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
 import profile from "../../assets/images/b4.jpg";
-
 import Link from "next/link";
 import Image from "next/image";
 import MobileMenu from "../clientComponents/MobileMenu";
@@ -10,7 +9,7 @@ import LargeScreenMenu from "../clientComponents/LargeScreenMenu";
 
 export const Header = () => {
   return (
-    <header className="relative z-50 w-screen md:shadow-md shadow-sm ">
+    <header className="relative z-50  md:shadow-md shadow-sm ">
       {/* desktop and tablet */}
       <div className="hidden md:flex justify-between  w-11/12  mx-auto">
         {/* logo */}
