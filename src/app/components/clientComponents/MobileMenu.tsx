@@ -25,15 +25,15 @@ const MobileMenu = () => {
   return (
     <div>
       <div
-        className={`bg-gray-50 shadow-xl rounded-lg flex flex-col absolute left-0 w-full py-2 ${
-          isMenu ? "top-16" : "-top-96"
+        className={`bg-gray-50 shadow-xl rounded-b-md flex flex-col absolute left-0 w-full py-2 ${
+          isMenu ? "top-14" : "-top-96"
         }`}
       >
         <ul className="flex flex-col">
           {navBarData.map((list: ListType, i: number) => {
             const isActive = pathname.startsWith(list.path);
             return (
-              <li key={i} className="mx-6 my-1">
+              <li key={i} className="mx-6 my-1" onClick={handleClick}>
                 <Link
                   className={isActive ? "text-primary" : "text-black"}
                   href={list.path}
