@@ -1,8 +1,21 @@
+import b1 from "../images/b1.jpeg";
+import b2 from "../images/b2.jpeg";
+import b3 from "../images/b3.jpg";
+import b4 from "../images/b4.jpeg";
+import b5 from "../images/b5.jpeg";
+import b6 from "../images/b6.jpeg";
+
+//c
+
+import c1 from "../images/c1.jpeg";
+import c2 from "../images/c2.jpeg";
+import c3 from "../images/c3.jpeg";
+
 export const navBarData = [
   {
     id: 1,
     name: "Discover",
-    path: "/discover",
+    path: "/",
   },
   {
     id: 2,
@@ -23,21 +36,21 @@ export const navBarData = [
 export const hero1 = [
   {
     id: 1,
-    name: "New Album from Nouvelle",
-    tag: "Nouvelle",
-    cover: "../images/c1.jpg",
+    name: "When the party's over",
+    tag: "Billie Eillish",
+    cover: c1,
   },
   {
     id: 2,
     name: "Bind Me",
     tag: "Fifty",
-    cover: "../images/c2.jpg",
+    cover: c2,
   },
   {
     id: 3,
     name: "New Track from Pablo Nouvelle",
     tag: "Pablo Nouvelle",
-    cover: "../images/c3.jpg",
+    cover: c3,
   },
 ];
 export const hero2 = [
@@ -45,25 +58,25 @@ export const hero2 = [
     id: 1,
     name: "Pull Up",
     tag: "Summerella",
-    cover: "../images/b4.jpg",
+    cover: b1,
   },
   {
     id: 2,
     name: "Fireworks",
     tag: "Kygo",
-    cover: "../images/b1.jpg",
+    cover: b2,
   },
   {
     id: 3,
     name: "I Wanna Be In the Cavalry",
     tag: "Jeremy Scott",
-    cover: "../images/b2.jpg",
+    cover: b3,
   },
   {
     id: 4,
     name: "What A Time To Be Alive",
     tag: "Judith Garcia",
-    cover: "../images/b3.jpg",
+    cover: b4,
   },
 ];
 export const treading = [
@@ -71,37 +84,37 @@ export const treading = [
     id: 1,
     name: "What A Time To Be Alive",
     tag: "Judith Garcia",
-    cover: "../images/b3.jpg",
+    cover: b3,
   },
   {
     id: 2,
     name: "Live Radio",
     tag: "Radionomy",
-    cover: "../images/b2.jpg",
+    cover: b2,
   },
   {
     id: 3,
     name: "I Wanna Be In the Cavalry",
     tag: "Jeremy Scott",
-    cover: "../images/b5.jpg",
+    cover: b4,
   },
   {
     id: 4,
     name: "Body on me",
     tag: "Rita Ora",
-    cover: "../images/b6.jpg",
+    cover: b6,
   },
   {
     id: 5,
     name: "Fireworks",
     tag: "Kygo",
-    cover: "../images/b1.jpg",
+    cover: b1,
   },
   {
     id: 6,
     name: "Simple Place To Be",
     tag: "RYD",
-    cover: "../images/b7.jpg",
+    cover: b5,
   },
 ];
 export const news = [
