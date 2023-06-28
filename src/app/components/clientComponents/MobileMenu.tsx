@@ -31,7 +31,7 @@ const MobileMenu = () => {
       >
         <ul className="flex flex-col">
           {navBarData.map((list: ListType, i: number) => {
-            const isActive = pathname.startsWith(list.path);
+            const isActive = pathname === list.path;
             return (
               <li key={i} className="mx-6 my-1" onClick={handleClick}>
                 <Link

@@ -45,7 +45,7 @@ const Sidebar = () => {
         </div>
 
         <p className="text-sm mt-3 ml-2">About Contact Legal Policy</p>
-        <span className="text-gray-500 text-[12px] ml-2 mb-4">
+        <span className="text-gray-500 text-[12px] ml-2 pb-8 mb-4">
           © Copyright 2022
         </span>
       </section>

@@ -27,8 +27,8 @@ export const navBarData = [
   },
   {
     id: 2,
-    name: "Browser",
-    path: "/browser",
+    name: "Browse",
+    path: "/browse",
   },
   {
     id: 3,

@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Hero from "./components/hero/Hero";
 import Trending from "./components/hero/Trending";
-import LayoutSideBar from "./components/hero/LayoutSideBar";
+import LayoutSideBar from "./components/shared/LayoutSideBar";
 import Latest from "./components/hero/Latest";
-import Recommand from "./components/hero/Recommendation";
+import Recommendation from "./components/hero/Recommendation";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         <LayoutSideBar>
           <Trending />
           <Latest />
-          <Recommand />
+          <Recommendation />
         </LayoutSideBar>
       </div>
 
