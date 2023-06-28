@@ -14,12 +14,9 @@ const LargeScreenMenu = () => {
   return (
     <ul className="flex gap-8 ">
       {navBarData.map((list: ListType, i: number) => {
-        const isActive = pathname.startsWith(list.path);
+        const isActive = pathname === list.path;
         return (
-          <li
-            key={i}
-            className="hover:scale-110 transition ease-in-out duration-200"
-          >
+          <li key={i} className="hover-list">
             <Link
               className={isActive ? "text-primary" : "text-black"}
               href={list.path}
