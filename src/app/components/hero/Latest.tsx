@@ -10,7 +10,7 @@ const Latest = () => {
         <Title title="Latest" />
         <div className=" grid md:grid-cols-4 gap-8">
           {latestSongs.map((item, i) => (
-            <div className="box card hero w-[90%]" key={i}>
+            <div className="box card hero " key={i}>
               <LargeCard cover={item.cover} name={item.name} tag={item.tag} />
             </div>
           ))}

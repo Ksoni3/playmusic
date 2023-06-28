@@ -68,7 +68,7 @@ const CarouselComponents = () => {
             alt="cover"
             className="w-full h-full object-cover"
           />
-          <div className="text absolute top-0 left-4 text-white p-5">
+          <div className="text absolute top-0 left-2 md:left-10 text-white p-5">
             <h3 className="text-xl font-semibold">{item.name}</h3>
             <span className="text-gray-400">{item.tag}</span>
           </div>
