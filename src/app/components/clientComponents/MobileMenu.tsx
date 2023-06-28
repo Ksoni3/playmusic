@@ -16,7 +16,6 @@ interface ListType {
 const MobileMenu = () => {
   const [isMenu, setIsMenu] = useState<boolean>(false);
   const pathname = usePathname();
-  console.log(isMenu);
 
   const handleClick = (): void => {
     setIsMenu(!isMenu);
