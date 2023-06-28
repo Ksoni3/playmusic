@@ -11,6 +11,14 @@ import c1 from "../images/c1.jpeg";
 import c2 from "../images/c2.jpeg";
 import c3 from "../images/c3.jpeg";
 
+//d
+import d1 from "../images/c1.jpg";
+import d2 from "../images/b1.jpg";
+import d3 from "../images/c2.jpg";
+import d4 from "../images/b2.jpg";
+import d5 from "../images/c3.jpg";
+import d6 from "../images/b3.jpg";
+
 export const navBarData = [
   {
     id: 1,
@@ -79,7 +87,8 @@ export const hero2 = [
     cover: b4,
   },
 ];
-export const treading = [
+
+export const trending = [
   {
     id: 1,
     name: "What A Time To Be Alive",
@@ -117,335 +126,275 @@ export const treading = [
     cover: b5,
   },
 ];
-export const news = [
+export const latestSongs = [
   {
     id: 1,
     name: "Simple Place To Be",
     tag: "RYD",
-    cover: "../images/b7.jpg",
+    cover: c1,
   },
   {
     id: 2,
     name: "Reflection (Deluxe)",
     tag: "Fifth Harmony",
-    cover: "../images/b8.jpg",
+    cover: d1,
   },
   {
     id: 3,
     name: "The Open Road",
     tag: "Postiljonen",
-    cover: "../images/b9.jpg",
+    cover: b1,
   },
   {
     id: 4,
     name: "Body on me",
     tag: "Rita Ora",
-    cover: "../images/b6.jpg",
+    cover: b3,
   },
   {
     id: 5,
     name: "I Wanna Be In the Cavalry",
     tag: "Jeremy Scott",
-    cover: "../images/b2.jpg",
+    cover: c3,
   },
   {
     id: 6,
     name: "Pull Up",
     tag: "Summerella",
-    cover: "../images/b4.jpg",
+    cover: b4,
   },
   {
     id: 7,
     name: "What A Time To Be Alive",
     tag: "Judith Garcia",
-    cover: "../images/b3.jpg",
+    cover: d3,
   },
   {
     id: 8,
     name: "Live Radio",
     tag: "Radionomy",
-    cover: "../images/b5.jpg",
+    cover: b2,
   },
 ];
 
-export const recommand = [
+export const recommend = [
   {
     id: 1,
     name: "Simple Place To Be",
     tag: "RYD",
-    cover: "../images/b1.jpg",
+    cover: d1,
   },
   {
     id: 2,
     name: "Reflection (Deluxe)",
     tag: "Fifth Harmony",
-    cover: "../images/b2.jpg",
+    cover: d2,
   },
   {
     id: 3,
     name: "The Open Road",
     tag: "Postiljonen",
-    cover: "../images/b3.jpg",
+    cover: d3,
   },
   {
     id: 4,
     name: "Body on me",
     tag: "Rita Ora",
-    cover: "../images/b4.jpg",
+    cover: d4,
   },
   {
     id: 5,
     name: "I Wanna Be In the Cavalry",
     tag: "Jeremy Scott",
-    cover: "../images/b5.jpg",
+    cover: d5,
   },
   {
     id: 6,
     name: "Pull Up",
     tag: "Summerella",
-    cover: "../images/b6.jpg",
+    cover: d6,
   },
   {
     id: 7,
     name: "What A Time To Be Alive",
     tag: "Judith Garcia",
-    cover: "../images/b7.jpg",
+    cover: c1,
   },
   {
     id: 8,
     name: "Live Radio",
     tag: "Radionomy",
-    cover: "../images/b8.jpg",
+    cover: c3,
   },
   {
     id: 9,
     name: "What A Time To Be Alive",
     tag: "Judith Garcia",
-    cover: "../images/b3.jpg",
+    cover: d2,
   },
   {
     id: 10,
     name: "Live Radio",
     tag: "Radionomy",
-    cover: "../images/b2.jpg",
+    cover: d4,
   },
 ];
 
-export const browse = [
+export const browseSongs = [
   {
     id: 1,
     name: "Simple Place To Be",
     tag: "RYD",
-    cover: "../images/b1.jpg",
+    cover: b1,
   },
   {
     id: 2,
     name: "Reflection (Deluxe)",
     tag: "Fifth Harmony",
-    cover: "../images/b2.jpg",
+    cover: c1,
   },
   {
     id: 3,
     name: "The Open Road",
     tag: "Postiljonen",
-    cover: "../images/b3.jpg",
+    cover: d1,
   },
   {
     id: 4,
     name: "Body on me",
     tag: "Rita Ora",
-    cover: "../images/b4.jpg",
+    cover: c2,
   },
   {
     id: 5,
     name: "I Wanna Be In the Cavalry",
     tag: "Jeremy Scott",
-    cover: "../images/b5.jpg",
+    cover: d2,
   },
   {
     id: 6,
     name: "Pull Up",
     tag: "Summerella",
-    cover: "../images/b6.jpg",
+    cover: b2,
   },
   {
     id: 7,
     name: "What A Time To Be Alive",
     tag: "Judith Garcia",
-    cover: "../images/b7.jpg",
+    cover: c3,
   },
   {
     id: 8,
     name: "Live Radio",
     tag: "Radionomy",
-    cover: "../images/b8.jpg",
+    cover: b3,
   },
   {
     id: 9,
     name: "What A Time To Be Alive",
     tag: "Judith Garcia",
-    cover: "../images/b3.jpg",
+    cover: b4,
   },
   {
     id: 10,
     name: "Live Radio",
     tag: "Radionomy",
-    cover: "../images/b2.jpg",
+    cover: b3,
   },
   {
     id: 1,
     name: "Simple Place To Be",
     tag: "RYD",
-    cover: "../images/b7.jpg",
+    cover: b1,
   },
   {
     id: 2,
     name: "Reflection (Deluxe)",
     tag: "Fifth Harmony",
-    cover: "../images/b8.jpg",
+    cover: d1,
   },
   {
     id: 3,
     name: "The Open Road",
     tag: "Postiljonen",
-    cover: "../images/b9.jpg",
+    cover: b4,
   },
   {
     id: 4,
     name: "Body on me",
     tag: "Rita Ora",
-    cover: "../images/b6.jpg",
+    cover: b3,
   },
   {
     id: 5,
     name: "I Wanna Be In the Cavalry",
     tag: "Jeremy Scott",
-    cover: "../images/b2.jpg",
+    cover: c3,
   },
   {
     id: 6,
     name: "Pull Up",
     tag: "Summerella",
-    cover: "../images/b4.jpg",
+    cover: d2,
   },
   {
     id: 7,
     name: "What A Time To Be Alive",
     tag: "Judith Garcia",
-    cover: "../images/b3.jpg",
+    cover: d1,
   },
   {
     id: 8,
     name: "Live Radio",
     tag: "Radionomy",
-    cover: "../images/b5.jpg",
+    cover: c2,
   },
   {
     id: 1,
     name: "Simple Place To Be",
     tag: "RYD",
-    cover: "../images/b1.jpg",
+    cover: b4,
   },
   {
     id: 2,
     name: "Reflection (Deluxe)",
     tag: "Fifth Harmony",
-    cover: "../images/b2.jpg",
+    cover: b5,
   },
   {
     id: 3,
     name: "The Open Road",
     tag: "Postiljonen",
-    cover: "../images/b3.jpg",
+    cover: b6,
   },
   {
     id: 4,
     name: "Body on me",
     tag: "Rita Ora",
-    cover: "../images/b4.jpg",
+    cover: c3,
   },
   {
     id: 5,
     name: "I Wanna Be In the Cavalry",
     tag: "Jeremy Scott",
-    cover: "../images/b5.jpg",
+    cover: b5,
   },
   {
     id: 6,
     name: "Pull Up",
     tag: "Summerella",
-    cover: "../images/b6.jpg",
+    cover: c3,
   },
   {
     id: 7,
     name: "What A Time To Be Alive",
     tag: "Judith Garcia",
-    cover: "../images/b7.jpg",
+    cover: d3,
   },
   {
     id: 8,
     name: "Live Radio",
     tag: "Radionomy",
-    cover: "../images/b8.jpg",
-  },
-  {
-    id: 9,
-    name: "What A Time To Be Alive",
-    tag: "Judith Garcia",
-    cover: "../images/b3.jpg",
-  },
-  {
-    id: 10,
-    name: "Live Radio",
-    tag: "Radionomy",
-    cover: "../images/b2.jpg",
-  },
-  {
-    id: 1,
-    name: "Simple Place To Be",
-    tag: "RYD",
-    cover: "../images/b7.jpg",
-  },
-  {
-    id: 2,
-    name: "Reflection (Deluxe)",
-    tag: "Fifth Harmony",
-    cover: "../images/b8.jpg",
-  },
-  {
-    id: 3,
-    name: "The Open Road",
-    tag: "Postiljonen",
-    cover: "../images/b9.jpg",
-  },
-  {
-    id: 4,
-    name: "Body on me",
-    tag: "Rita Ora",
-    cover: "../images/b6.jpg",
-  },
-  {
-    id: 5,
-    name: "I Wanna Be In the Cavalry",
-    tag: "Jeremy Scott",
-    cover: "../images/b2.jpg",
-  },
-  {
-    id: 6,
-    name: "Pull Up",
-    tag: "Summerella",
-    cover: "../images/b4.jpg",
-  },
-  {
-    id: 7,
-    name: "What A Time To Be Alive",
-    tag: "Judith Garcia",
-    cover: "../images/b3.jpg",
-  },
-  {
-    id: 8,
-    name: "Live Radio",
-    tag: "Radionomy",
-    cover: "../images/b5.jpg",
+    cover: c1,
   },
 ];
